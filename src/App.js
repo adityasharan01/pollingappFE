@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-const API_BASE_URL = 'http://localhost:5001/api/polls';
+const API_BASE_URL = 'https://polling-app-1-36gz.onrender.com/api/polls';
 
 const App = () => {
   const [polls, setPolls] = useState([]);
